@@ -72,6 +72,8 @@ RUN python3 -m ensurepip \
 RUN git clone -b sql-extended https://github.com/parthpatel1107/One4uBot /root/One4uBot
 RUN mkdir /root/One4uBot/bin/
 WORKDIR /root/One4uBot/
+ENV PATH="/root/One4uBot/.bin:$PATH"
+WORKDIR /root/One4uBot/
 
 #
 # Copies session and config (if it exists)
