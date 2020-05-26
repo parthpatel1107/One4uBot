@@ -93,7 +93,7 @@ async def creator(ereee):
     """ See who create this userbot. """
     await ereee.edit(
         "Creator of this userbot:"
-        "\n• 💘 [MoveAngel](https://github.com/MoveAngel) 💘")
+        "\n• 💘 [ParthPatel](https://github.com/parthpatel1107) 💘")
 
 
 @register(outgoing=True, pattern="^.readme$")
@@ -128,7 +128,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "[Click here](https://github.com/MoveAngel/One4uBot) to open One4uBot's GitHub page."
+        "[Click here](https://github.com/parthpatel1107/One4uBot) to open One4uBot's GitHub page."
     )
 
 
