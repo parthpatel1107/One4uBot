@@ -17,8 +17,8 @@ import json
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP, bot
 from userbot.events import register
 
-@register(outgoing=True, pattern="^.shalom$")
-async def shalom(e):
+@register(outgoing=True, pattern="^.parth$")
+async def parth(e):
     await e.edit(
         "\n☁️☁️☁️☁️☁️☁️☁️"
         "\n☁️⭐️⭐️⭐️⭐️⭐️☁️"
@@ -64,7 +64,7 @@ async def shalom(e):
         "\n☁️☁️☁️☁️☁️☁️☁️")
     
     CMD_HELP.update({
-    'shalom':
-    '.shalom\
-\nUsage: gives a nice SHALOM as output.'
+    'parth':
+    '.parth\
+\nUsage: gives a nice PARTH as output.'
 })
