@@ -1,4 +1,4 @@
-import libtorrent as lt
+import torrent as lt
 import time
 import shutil
 from datetime import datetime
